@@ -1,0 +1,15 @@
+#fondo{background-color:#f5f5f5;}
+#letra {font-family:"Comic Sans MS", cursive, sans-serif; color: #333399; }
+body{ background-image: url(cerezo.jpg);background-repeat: inherit; height:950px; width:850px; margin: auto; margin-top: 30px;}
+h1{ text-align: center; font-family: serif; font-size: 35px; color: white; text-shadow: 3px 0px 4px black, 0 0 40px blue, 0 0 5px darkblue; text-decoration: underline; text-transform:capitalize;}
+#flores{display:block; margin-left: 250px;  width:40%; border-radius: 40%; }
+#parrafo{margin-left: 20px;}
+#music {display:block; margin-left: 245px; margin-right: 245px; border-radius: 25%;}
+input {width: 30%; margin-left: 80px; margin-right: 10PX;}
+#boton {width:15%;}
+a {color: hotpink; }
+a:link{background-color: yellow;}
+a:visited{background-color: cyan;}
+a:hover{background-color: black;}
+a:active{ background-color: pink;}
+ul{list-style-type: circle;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Floristeria girasol</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="letra" >
+    
+   <div id="fondo">
+      <h1> lista de flores </h1>
+         <ul > 
+           <li>tulipanes</li>
+           <li>rosas</li>
+           <li>girasoles</li>
+           <li>lirios</li>
+           <li>claveles</li>
+            <li>margaritas</li>
+         </ul>
+        <p id= "parrafo">Para mas informacion relle los siguientes campos <br/>Al rellenar los campos te estas suscriviendo.</p>
+      <img id="flores" width="400" height="300" src="flores.jpg" alt="flores" title="flores"/>
+      <form  method= "post" action="sqldb.php" enctype="multipart/form-data" >
+            <input type="text" required id="nombre" placeholder="*Nombre"  name="nombre"/>
+            <input type="text" required id="apellidos" placeholder="*Apellidos" name="apellidos"/>
+            <input type="text"  required id="Pais" placeholder="*Pais" name="pais" />
+            <input type="email" required id="email" name="email" placeholder="*email" />
+            <input type="text" required id="telefono" placeholder="*telefono" maxlength="9" name="telefono" />
+            <input type="date" name="fecha"/>
+           <p class="requiridos" style="color: red; margin-left: 40px;"> los campos con * son obligatorios </p>
+            <input id="boton" type="submit" value="ENVIAR">
+      </form>
+    <iframe id="music"<iframe width="360" height="215" src="https://www.youtube.com/embed/WJvMtxfhUoY?controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ <a href="https://www.google.es//">This is a link</a>
+   </div>
+</body>
+</html>
